@@ -47,25 +47,26 @@ To develop a basic to-do app that enables users to add, view, and complete tasks
 
 # Features
 
-Add New Tasks: Users can add new tasks to a list.
+- Add New Tasks: Users can add new tasks to a list.
 
-View Tasks: All tasks are displayed in a list format.
+- View Tasks: All tasks are displayed in a list format.
 
-Mark as Complete: Users can mark tasks as complete, moving them to a separate "Completed Tasks" list.
+- Mark as Complete: Users can mark tasks as complete, moving them to a separate "Completed Tasks" list.
 
-Date and Time: Optionally, add date and time information to tasks when they are created and completed.
+- Date and Time: Optionally, add date and time information to tasks when they are created and completed.
 
 # Implementation Outline
 
-HTML: Create the structure of the web app with input fields, buttons, and lists.
+- HTML: Create the structure of the web app with input fields, buttons, and lists.
  Defines the structure of the to-do app with input fields, buttons, and unordered lists (<ul>) for tasks.
  
-CSS: Style the app for a better user experience.
+- CSS: Style the app for a better user experience.
      Styles the app, making it visually appealing and easier to interact with.
      
-JavaScript: Add functionality to handle task addition, completion, and display:
-            addTask(): Adds a new task to the task list. If the input is empty, it returns without adding the task.
-            completeTask(): Moves the task from the task list to the completed task list and marks it as completed. Optionally, adds 
+- JavaScript: Add functionality to handle task addition, completion, and display:
+  
+            - addTask(): Adds a new task to the task list. If the input is empty, it returns without adding the task.
+            - completeTask(): Moves the task from the task list to the completed task list and marks it as completed. Optionally, adds 
                             date and time when the task was added and completed.
 
 
