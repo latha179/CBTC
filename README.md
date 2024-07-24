@@ -63,7 +63,9 @@ To develop a basic to-do app that enables users to add, view, and complete tasks
        Styles the app, making it visually appealing and easier to interact with.
      
 - JavaScript: Add functionality to handle task addition, completion, and display:
+  
             - addTask(): Adds a new task to the task list. If the input is empty, it returns without adding the task.
+  
             - completeTask(): Moves the task from the task list to the completed task list and marks it as completed. Optionally, adds 
                             date and time when the task was added and completed.
 
