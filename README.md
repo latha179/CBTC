@@ -58,10 +58,9 @@ To develop a basic to-do app that enables users to add, view, and complete tasks
 # Implementation Outline
 
 - HTML: Create the structure of the web app with input fields, buttons, and lists.
- Defines the structure of the to-do app with input fields, buttons, and unordered lists (<ul>) for tasks.
- 
+  
 - CSS: Style the app for a better user experience.
-     Styles the app, making it visually appealing and easier to interact with.
+       Styles the app, making it visually appealing and easier to interact with.
      
 - JavaScript: Add functionality to handle task addition, completion, and display:
   
